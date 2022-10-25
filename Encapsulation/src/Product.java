@@ -2,6 +2,7 @@
 public class Product {
 
 	//valid only in the block in which it is defined
+	//attribute | field
 	private int id;
 	private String name;
 	private String description;
@@ -9,12 +10,12 @@ public class Product {
 	private int stockAmount;
 	private String code;
 	
-	//getter
+	//getter : read only
 	public int getId() {
 		return id;
 	}
 	
-	//setter
+	//setter : change value
 	public void setId(int id) {
 		this.id = id;
 	}
