@@ -1,6 +1,7 @@
 
 public class Product {
 
+	//valid only in the block in which it is defined
 	private int id;
 	private String name;
 	private String description;
